@@ -14,8 +14,8 @@ public class IO001 {
 		// TODO Auto-generated method stub
 		String epline=null,nline=null,ep3=null;
 		try {	
-		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\3kdi44\\Desktop\\201831104076ÓàºèÑî\\yq_in.txt")));
-		File txt=new File("C:\\Users\\3kdi44\\Desktop\\201831104076ÓàºèÑî\\IO001.txt");
+		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\3kdi44\\Desktop\\201831104076Ã“Ã ÂºÃ¨Ã‘Ã®\\yq_in.txt")));
+		File txt=new File("C:\\Users\\3kdi44\\Desktop\\201831104076Ã“Ã ÂºÃ¨Ã‘Ã®\\IO001.txt");
 		FileOutputStream fos=new FileOutputStream(txt);
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
 		if(!txt.exists())
