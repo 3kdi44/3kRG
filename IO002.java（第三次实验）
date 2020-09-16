@@ -19,11 +19,11 @@ public class IO002 {
 			Scanner in=new Scanner(System.in);
 			Scanner in1=new Scanner(System.in);
 			Scanner in2=new Scanner(System.in);
-			System.out.println("ÊäÈëÎÄ¼şµÄÂ·¾¶¼°Ãû³Æ:");
+			System.out.println("è¾“å…¥æ–‡ä»¶çš„è·¯å¾„åŠåç§°:");
 			String input=in.nextLine();
-			System.out.println("Êä³öÎÄ¼şµÄÂ·¾¶¼°Ãû³Æ:");
+			System.out.println("è¾“å‡ºæ–‡ä»¶çš„è·¯å¾„åŠåç§°:");
 			String output=in1.nextLine();
-			System.out.println("ÇëÖ¸¶¨Ê¡·İÊä³öĞÅÏ¢(²»Ö¸¶¨ÔòÊä³öËùÓĞÊ¡ĞÅÏ¢):");
+			System.out.println("è¯·æŒ‡å®šçœä»½è¾“å‡ºä¿¡æ¯(ä¸æŒ‡å®šåˆ™è¾“å‡ºæ‰€æœ‰çœä¿¡æ¯):");
 			String pro="";
 			pro=in2.nextLine();
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(input)));
